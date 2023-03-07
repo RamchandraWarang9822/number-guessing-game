@@ -4,13 +4,13 @@ import javax.swing.UIManager;
 import java.awt.Dimension;
 import java.awt.Font;
 
+
 public class Main {
 
     public static void main(String[] args) {
 
         UIManager.put("OptionPane.minimumSize", new Dimension(400, 200));
         Font font = new Font(null, Font.BOLD, 24);
-
         UIManager.put("OptionPane.messageFont", font);
         
         Random random = new Random();
